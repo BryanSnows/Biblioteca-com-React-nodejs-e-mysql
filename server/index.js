@@ -87,17 +87,6 @@ app.delete("/delete/:id", (req, res) => {
 
 
 
-/*app.get("/", (req, res) => {
-    let SQL = 
-    "INSERT INTO games( idgames, name, cost, category ) VALUES ('2', 'FAR CRY 5', '120', 'ACAO')";
-    
-    db.query(SQL, (err, result)=>{
-        console.log(err)
-    })
-});*/
-
-
-
 app.listen(3007, () => {
     console.log("rodando servidor")
 }); 
